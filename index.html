@@ -3,37 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | NFT preview card component</title>
 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <main>
-    <div class="cotianer-mian">
-      <div class="bg-img"><a href="#"><div class="visible-icon"></div></a></div>
-      <article>
-        <a href="#"><h3>Equliburim #3429</h3></a>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-      </article>
-      <div class="eth-container">
-        <!-- first half -->
-        <div class="eth-img-contianer">
-          <img src="images/icon-ethereum.svg" alt="icon of eth">
-          <h4>0.041ETH</h4>
-        </div>
-        <!-- second half -->
-        <div class="clock-contianer">
-          <img src="images/icon-clock.svg" alt="icon of clock">
-          <h4>4 days left</h4>
-        </div>
+
+  <div class="container">
+    <div class="img-contaienr">
+      <div class="eye-cotnainer">
+        <img class="eye" src="images/icon-view.svg" alt="eye logo">
+
       </div>
-      <div class="bottom-layer-contianer">
-        <div>
-          <img src="images/image-avatar.png" alt="icon of avatar">
-          <h4>Creation of <span class="avatar-h4"><a href="#">Jules Wyaven</a></span></h4>
-        </div>
-      </div>
+      <img class="main-img" src="images/image-equilibrium.jpg" alt="equilibrium logo">
     </div>
-  </main>
+    <h1>Equilibrium #3429</h1>
+
+    <p>Our Equilibrium collection promotes balance and calm.</p>
+
+    <div class="cripto-container">
+      <div class="left">
+        <img src="images/icon-ethereum.svg" alt="eth logo">
+        <h3> 0.041 ETH</h3>
+      </div>
+    <div class="right">
+      <img src="images/icon-clock.svg" alt="clock img">
+      <h3>3 days left</h3>
+    </div>
+  </div>
+
+    <div class="bottom-container">
+      <img src="images/image-avatar.png" alt="avatar image">
+      <h4>Creation of <span>Jules Wyvern</span></h4>
+    </div>
+
+
+  </div>
 </body>
 </html>
